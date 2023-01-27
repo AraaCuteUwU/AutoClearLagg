@@ -1,0 +1,5 @@
+name: AutoClearLagg
+main: FiraAja\AutoClearLagg\AutoClearLagg
+version: 3.1.0
+api: 5.0.0
+author: FiraAja
