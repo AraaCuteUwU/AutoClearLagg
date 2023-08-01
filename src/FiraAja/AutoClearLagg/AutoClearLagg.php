@@ -100,7 +100,7 @@ class AutoClearLagg extends PluginBase{
                             $entity->flagForDespawn();
                             ++$entitiesCleared;
                         }else if($this->clearMobs && !$entity instanceof Human){
-                            if(!in_array(strtolower($entity->getName()), $this->exemptEntities)){
+                            if(!in_array($entity, $this->exemptEntities)){
                                 $entity->flagForDespawn();
                                 ++$entitiesCleared;
                             }
